@@ -1,6 +1,6 @@
 # Project Details
 
-This project name react-crypto-cafe and explore react router with tailwind.
+This project name react-crypto-cafe and explore react router with tailwind. Add header component.
 
 # Important Notes
 
