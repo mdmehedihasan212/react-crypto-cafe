@@ -6,6 +6,7 @@ import Coins from './components/Coins/Coins';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import NotFound from './components/About/NotFound/NotFound';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
