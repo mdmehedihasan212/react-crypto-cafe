@@ -9,11 +9,13 @@ const CoinCard = ({ coin }) => {
             <Link to={`/coin-details/${coin.id}`}>
                 <div className='gap-4 flex justify-between items-center'>
                     <div className='flex-shrink-0'>
-                        <img src={image} className='mx-auto object-cover rounded-full h-16 w-16' alt="" />
+                        <div>
+                            <img src={image} className='mx-auto object-cover rounded-full h-16 w-16' alt="" />
+                        </div>
                     </div>
                     <div className='flex flex-col justify-end'>
                         <span className='text-gray-600 font-medium'>{name}</span>
-                        <span className='text-gray-600 font-xs'>{symbol}</span>
+                        <span className='text-gray-400 font-xs'>{symbol}</span>
                     </div>
                 </div>
             </Link>

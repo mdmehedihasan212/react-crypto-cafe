@@ -10,10 +10,10 @@ const Coins = () => {
             .then(data => setCoins(data))
     }, [])
     return (
-        <div>
+        <div className='px-4 pt-20 pb-24 mx-auto mx-w-7xl md:px-2'>
             <p className='text-center text-3xl font-bold text-gray-600'>Available Crypto Currencies</p>
-            <p className='text-xl text-gray-800 mt-2'>Total coins: {coins.length}</p>
-            <div className='grid grid-cols-1 md:grid-col-2 lg:grid-cols-3'>
+            <p className='font-normal text-gray-800 mb-12'>Total coins: {coins.length}</p>
+            <div className='grid grid-cols-1 md:grid-col-2 lg:grid-cols-4 xl:grid-col-4 gap-4 justify-items-center'>
                 {
                     coins.map(coin => <CoinCard key={coin.id} coin={coin}></CoinCard>)
                 }

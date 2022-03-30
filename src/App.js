@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import NotFound from './components/About/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
+import CardDetails from './components/CardDetails/CardDetails';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/coins" element={<Coins></Coins>}></Route>
+        <Route path="/coin-details/:id" element={<CardDetails></CardDetails>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
