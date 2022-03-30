@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NotFound = () => {
     return (
-        <section>
+        <section className='px-4 py-20 mx-auto max-w-7xl'>
             <div className='grid items-center w-full grid-cols-1 gap-10 mx-auto md:w-4/5 lg:grid-cols-2 xl:gap-32'>
                 <div>
                     <p className='mb-2 text-xs text-left font-semibold tracking-wide text-gray-500 uppercase'>Error 404</p>
