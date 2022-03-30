@@ -18,24 +18,24 @@ const CardDetails = () => {
                 <div className='order-2 md:order-1'>
                     <h1 className='text-3xl text-gray-600'>General Info</h1>
                     <hr />
-                    <p>Coin Name: {name}</p>
-                    <p>Market Cap Rank: {market_cap_rank}</p>
-                    <p>Origin: {country_origin ? country_origin : 'Not Available'}</p>
-                    <p>Contract Address:{contract_address} </p>
-                    <p>Hashing Algorithm: {hashing_algorithm}</p>
-                    <p>Genesis Data: {genesis_date}</p>
-                    <p>Last Updated: {last_updated}</p>
+                    <h1>Coin Name: {name}</h1>
+                    <h1>Market Cap Rank: {market_cap_rank}</h1>
+                    <h1>Origin: {country_origin ? country_origin : 'Not Available'}</h1>
+                    <h1>Contract Address:{contract_address} </h1>
+                    <h1>Hashing Algorithm: {hashing_algorithm}</h1>
+                    <h1>Genesis Data: {genesis_date}</h1>
+                    <h1>Last Updated: {last_updated}</h1>
 
                     <h1 className='text-3xl text-gray-600 mt-4'>Scores</h1>
                     <hr />
-                    <p>Community Score: {community_score}</p>
-                    <p>Developer Score: {developer_score}</p>
-                    <p>Liquidity Score: {liquidity_score}</p>
-                    <p>Public Interest Score: {public_interest_score}</p>
+                    <h1>Community Score: {community_score}</h1>
+                    <h1>Developer Score: {developer_score}</h1>
+                    <h1>Liquidity Score: {liquidity_score}</h1>
+                    <h1>Public Interest Score: {public_interest_score}</h1>
                 </div>
-            </div>
-            <div className='flex order-1 md:order-2 justify-center items-center'>
-                <img src={image?.large} alt="" />
+                <div className='flex order-1 md:order-2 justify-center items-center'>
+                    <img src={image?.large} alt="" />
+                </div>
             </div>
         </div>
     );
